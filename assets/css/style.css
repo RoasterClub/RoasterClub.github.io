@@ -371,7 +371,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 80vh;
-  background: #f7eada;
+  background: white;
 }
 
 #hero .container {
@@ -514,7 +514,7 @@ section {
 }
 
 .pricing {
-  background-color: #fbcb8c;
+  background-color: #f7eada;
 }
 
 .section-title h2 {
@@ -524,7 +524,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #37517e;
+  color: #415a5c;
 }
 
 .section-title h2::before {
@@ -539,14 +539,7 @@ section {
 }
 
 .section-title h2::after {
-  content: '';
-  position: absolute;
-  display: block;
-  width: 40px;
-  height: 3px;
-  background: #47b2e4;
-  bottom: 0;
-  left: calc(50% - 20px);
+  
 }
 
 .section-title p {
@@ -834,7 +827,7 @@ section {
   border-radius: 15px;
   padding: 50px 30px;
   transition: all ease-in-out 0.4s;
-  background: #f7eada;
+  background: white;
 }
 
 .services .icon-box .icon {
@@ -872,11 +865,12 @@ section {
   color: #47b2e4;
 }
 
+
 /*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("../img/cta-bg.jpg") fixed center center;
+  background: url("../img/cta-bg.png") fixed center center;
   background-size: cover;
   padding: 120px 0;
 }
@@ -1094,7 +1088,7 @@ section {
 .team .member .pic {
   overflow: hidden;
   width: 180px;
-  border-radius: 50%;
+  
 }
 
 .team .member .pic img {
@@ -1113,7 +1107,7 @@ section {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
-  color: #37517e;
+  color: #415a5c;
 }
 
 .team .member span {
@@ -1155,17 +1149,17 @@ section {
   border-radius: 50px;
   width: 32px;
   height: 32px;
-  background: #eff2f8;
+  background: #f7eada;
 }
 
 .team .member .social a i {
-  color: #37517e;
+  color: #606060;
   font-size: 16px;
   margin: 0 2px;
 }
 
 .team .member .social a:hover {
-  background: #47b2e4;
+  background: #fbcb8c;
 }
 
 .team .member .social a:hover i {
@@ -1194,6 +1188,7 @@ section {
 
 .pricing h3 {
   font-weight: 500;
+  margin-top: 15px;
   margin-bottom: 15px;
   font-size: 20px;
   color: #606060;
@@ -1269,7 +1264,7 @@ section {
 }
 
 .pricing .featured {
-  border-top-color: #47b2e4;
+  border-top-color: #fbcb8c;
 }
 
 .pricing .featured .buy-btn {
@@ -1584,7 +1579,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background: #f3f5fa;
+  background: #f7eada;
   min-height: 40px;
   margin-top: 72px;
 }
@@ -1598,7 +1593,7 @@ section {
 .breadcrumbs h2 {
   font-size: 28px;
   font-weight: 600;
-  color: #37517e;
+  color: #fbcb8c;
 }
 
 .breadcrumbs ol {
@@ -1626,12 +1621,12 @@ section {
 --------------------------------------------------------------*/
 #footer {
   font-size: 14px;
-  background: #37517e;
+  background: #606060;
 }
 
 #footer .footer-newsletter {
   padding: 50px 0;
-  background: #f3f5fa;
+  background: #f7eada;
   text-align: center;
   font-size: 15px;
   color: #444444;
@@ -1643,7 +1638,7 @@ section {
   padding: 0;
   line-height: 1;
   font-weight: 600;
-  color: #37517e;
+  color: #415a5c;
 }
 
 #footer .footer-newsletter form {
@@ -1671,7 +1666,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #47b2e4;
+  background: #fbcb8c;
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
